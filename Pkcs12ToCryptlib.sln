@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pkcs12ToCryptlib", "Pkcs12ToCryptlib\Pkcs12ToCryptlib.vcxproj", "{6049F55B-8945-4F93-8774-FBA98E34EDEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{1E3E38FF-623A-4744-99E0-AF8CC642B2B1}"
+	ProjectSection(SolutionItems) = preProject
+		lib\cl32.dll = lib\cl32.dll
+		lib\cl32.lib = lib\cl32.lib
+		lib\libeay32.dll = lib\libeay32.dll
+		lib\libeay32.lib = lib\libeay32.lib
+		lib\libssl32.dll = lib\libssl32.dll
+		lib\ssleay32.dll = lib\ssleay32.dll
+		lib\ssleay32.lib = lib\ssleay32.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{E7621AC0-A65D-4073-828F-D34BEB84B268}"
+	ProjectSection(SolutionItems) = preProject
+		include\cryptlib.h = include\cryptlib.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "openssl", "openssl", "{F0961903-ABF2-43B7-8741-DA44F29B5DDB}"
+	ProjectSection(SolutionItems) = preProject
+		include\openssl\aes.h = include\openssl\aes.h
+		include\openssl\applink.c = include\openssl\applink.c
+		include\openssl\asn1.h = include\openssl\asn1.h
+		include\openssl\asn1_mac.h = include\openssl\asn1_mac.h
+		include\openssl\asn1t.h = include\openssl\asn1t.h
+		include\openssl\bio.h = include\openssl\bio.h
+		include\openssl\blowfish.h = include\openssl\blowfish.h
+		include\openssl\bn.h = include\openssl\bn.h
+		include\openssl\buffer.h = include\openssl\buffer.h
+		include\openssl\camellia.h = include\openssl\camellia.h
+		include\openssl\cast.h = include\openssl\cast.h
+		include\openssl\cmac.h = include\openssl\cmac.h
+		include\openssl\cms.h = include\openssl\cms.h
+		include\openssl\comp.h = include\openssl\comp.h
+		include\openssl\conf.h = include\openssl\conf.h
+		include\openssl\conf_api.h = include\openssl\conf_api.h
+		include\openssl\crypto.h = include\openssl\crypto.h
+		include\openssl\des.h = include\openssl\des.h
+		include\openssl\des_old.h = include\openssl\des_old.h
+		include\openssl\dh.h = include\openssl\dh.h
+		include\openssl\dsa.h = include\openssl\dsa.h
+		include\openssl\dso.h = include\openssl\dso.h
+		include\openssl\dtls1.h = include\openssl\dtls1.h
+		include\openssl\e_os2.h = include\openssl\e_os2.h
+		include\openssl\ebcdic.h = include\openssl\ebcdic.h
+		include\openssl\ec.h = include\openssl\ec.h
+		include\openssl\ecdh.h = include\openssl\ecdh.h
+		include\openssl\ecdsa.h = include\openssl\ecdsa.h
+		include\openssl\engine.h = include\openssl\engine.h
+		include\openssl\err.h = include\openssl\err.h
+		include\openssl\evp.h = include\openssl\evp.h
+		include\openssl\hmac.h = include\openssl\hmac.h
+		include\openssl\idea.h = include\openssl\idea.h
+		include\openssl\krb5_asn.h = include\openssl\krb5_asn.h
+		include\openssl\kssl.h = include\openssl\kssl.h
+		include\openssl\lhash.h = include\openssl\lhash.h
+		include\openssl\md4.h = include\openssl\md4.h
+		include\openssl\md5.h = include\openssl\md5.h
+		include\openssl\mdc2.h = include\openssl\mdc2.h
+		include\openssl\modes.h = include\openssl\modes.h
+		include\openssl\obj_mac.h = include\openssl\obj_mac.h
+		include\openssl\objects.h = include\openssl\objects.h
+		include\openssl\ocsp.h = include\openssl\ocsp.h
+		include\openssl\opensslconf.h = include\openssl\opensslconf.h
+		include\openssl\opensslv.h = include\openssl\opensslv.h
+		include\openssl\ossl_typ.h = include\openssl\ossl_typ.h
+		include\openssl\pem.h = include\openssl\pem.h
+		include\openssl\pem2.h = include\openssl\pem2.h
+		include\openssl\pkcs12.h = include\openssl\pkcs12.h
+		include\openssl\pkcs7.h = include\openssl\pkcs7.h
+		include\openssl\pqueue.h = include\openssl\pqueue.h
+		include\openssl\rand.h = include\openssl\rand.h
+		include\openssl\rc2.h = include\openssl\rc2.h
+		include\openssl\rc4.h = include\openssl\rc4.h
+		include\openssl\ripemd.h = include\openssl\ripemd.h
+		include\openssl\rsa.h = include\openssl\rsa.h
+		include\openssl\safestack.h = include\openssl\safestack.h
+		include\openssl\seed.h = include\openssl\seed.h
+		include\openssl\sha.h = include\openssl\sha.h
+		include\openssl\srp.h = include\openssl\srp.h
+		include\openssl\srtp.h = include\openssl\srtp.h
+		include\openssl\ssl.h = include\openssl\ssl.h
+		include\openssl\ssl2.h = include\openssl\ssl2.h
+		include\openssl\ssl23.h = include\openssl\ssl23.h
+		include\openssl\ssl3.h = include\openssl\ssl3.h
+		include\openssl\stack.h = include\openssl\stack.h
+		include\openssl\symhacks.h = include\openssl\symhacks.h
+		include\openssl\tls1.h = include\openssl\tls1.h
+		include\openssl\ts.h = include\openssl\ts.h
+		include\openssl\txt_db.h = include\openssl\txt_db.h
+		include\openssl\ui.h = include\openssl\ui.h
+		include\openssl\ui_compat.h = include\openssl\ui_compat.h
+		include\openssl\whrlpool.h = include\openssl\whrlpool.h
+		include\openssl\x509.h = include\openssl\x509.h
+		include\openssl\x509_vfy.h = include\openssl\x509_vfy.h
+		include\openssl\x509v3.h = include\openssl\x509v3.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6049F55B-8945-4F93-8774-FBA98E34EDEE}.Debug|x86.ActiveCfg = Debug|Win32
+		{6049F55B-8945-4F93-8774-FBA98E34EDEE}.Debug|x86.Build.0 = Debug|Win32
+		{6049F55B-8945-4F93-8774-FBA98E34EDEE}.Release|x86.ActiveCfg = Release|Win32
+		{6049F55B-8945-4F93-8774-FBA98E34EDEE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0961903-ABF2-43B7-8741-DA44F29B5DDB} = {E7621AC0-A65D-4073-828F-D34BEB84B268}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB3CF2F0-6A48-4406-A8EA-C52D47E7FEAD}
+	EndGlobalSection
+EndGlobal
